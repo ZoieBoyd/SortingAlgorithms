@@ -20,16 +20,16 @@ namespace SortingAlgorithms
             BubbleSort.Sort(array);
             PrintSequence(array);
 
-        /*  
+        
             FillRandArray(array);
             Console.WriteLine("\n----MERGE SORT----");
             Console.Write("Number sequence before sort: ");
             PrintSequence(array);
 
             Console.Write("\nMerge Sort Test: ");
-            MergeSort.Sort(array);
+            MergeSort.Sort(array, 0, array.Length);
             PrintSequence(array);
-        */
+        
         }
 
         static void FillRandArray (int[] array)
